@@ -4,12 +4,12 @@
 #include "Adafruit_MQTT_Client.h"
 #define DHTTYPE DHT11   // DHT 11
 
-#define WLAN_SSID       "tinkerr"
-#define WLAN_PASS       "lilalila"
+#define WLAN_SSID       "ssid"
+#define WLAN_PASS       "password"
 #define AIO_SERVER      "io.adafruit.com"
 #define AIO_SERVERPORT  1883                  
-#define AIO_USERNAME    "rahul157"
-#define AIO_KEY         "bb50ad0a40854765837632f0c032d412"
+#define AIO_USERNAME    "username"
+#define AIO_KEY         "youraiokey"
 
 uint8_t DHTPin = 5; //D1
 DHT dht(DHTPin, DHTTYPE);
